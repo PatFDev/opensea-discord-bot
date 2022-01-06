@@ -12,7 +12,7 @@ Next go to oAuth2 click "bot" and copy and paste the link into your browser then
 Make an account on etherscan and go to https://etherscan.io/myapikey, im too lazy to tell you the rest just figure it out and put the etherscan apikey in the .env
 
 ## Step 4:
-On the top bar of the folder type 'cmd'. once in the cmd, type npm start and you should see Logged in as XXXX
+On the top bar of the folder type 'cmd'. once in the cmd, type npm install then npm start and you should see Logged in as XXXX
 
 ## Step 5:
 Use the bot. The current two current commands are 
