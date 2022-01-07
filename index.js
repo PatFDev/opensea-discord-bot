@@ -36,7 +36,7 @@ client.on('message', async (message) => {
                     { name: 'Total Quantity:', value: `${response.data.collection.stats.count}`, inline: true },
                     { name: 'Number of Owners:', value: `${response.data.collection.stats.num_owners}`, inline: true },
                     { name: 'Floor Price:', value: `${response.data.collection.stats.floor_price}Ξ`, inline: true },
-                    { name: 'Twitter:', value: `[${response.data.collection.twitter_username}](https://twitter.com/${response.data.twitter_username})`, inline: true },
+                    { name: 'Twitter:', value: `[${response.data.collection.twitter_username}](https://twitter.com/${response.data.collection.twitter_username})`, inline: true },
                     { name: 'Discord', value: `[${response.data.collection.discord_url}](${response.data.collection.discord_url})`, inline: true },
                     { name: '30d Volume:', value: `${Math.round(response.data.collection.stats.thirty_day_volume)}Ξ`, inline: true },
                 )
